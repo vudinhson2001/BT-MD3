@@ -8,11 +8,15 @@ import java.util.List;
 public interface ICustomerDAO {
     public void add(Customer customer) throws SQLException;
 
-    public Customer findById(int id);
+    int findIndexById(int id);
+
+    Customer findById(int id);
+
 
     public List<Customer> findAll();
 
     public boolean delete(int id) throws SQLException;
 
-    public boolean update(Customer customer) throws SQLException;
+    boolean update(int id, Customer customer) throws SQLException;
+
 }

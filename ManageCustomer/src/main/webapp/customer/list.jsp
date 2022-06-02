@@ -1,4 +1,3 @@
-
 <%--
   Created by IntelliJ IDEA.
   User: sonvu
@@ -16,8 +15,9 @@
 <body>
 <h1>Đây là danh Sách</h1>
 <a href="/customers?act=create">Tạo mới</a>
+
 <c:forEach var="cus" items="${dsKH}">
-    <h2>${cus.id},${cus.name},${cus.age}</h2>
+    <h2>${cus.id}, ${cus.name}, ${cus.age} <a href="/customers?act=update&id=${cus.id}">Sửa</a></h2>
 </c:forEach>
 </body>
 </html>

@@ -12,9 +12,11 @@
 </head>
 <body>
 <form method="post">
-<input type="text" name="name">
-<input type="text" name="age">
-<button>Tạo mới</button>
+    <input type="text" name="id">
+    <input type="text" name="name">
+    <input type="text" name="age">
+
+    <button>Tạo mới</button>
 </form>
 
 </body>

@@ -1,6 +1,6 @@
 package model;
 
-public class Customer {
+public class  Customer {
     private int id;
     private String name ;
     private int age ;
@@ -17,6 +17,9 @@ public class Customer {
         this.id = id;
         this.name = name;
         this.age = age;
+    }
+
+    public Customer(String name, int age, int id) {
     }
 
     public int getId() {
