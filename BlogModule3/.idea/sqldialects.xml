@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Blog_MD3.2/SQL/blog_comment.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Blog_MD3.2/SQL/blog_role.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Blog_MD3.2/SQL/blog_user.sql" dialect="GenericSQL" />
+  </component>
+</project>
